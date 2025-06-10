@@ -1,0 +1,18 @@
+<header class ="w-full flex items-center justify-between min-h-10 bg-red-400 px-5 fixed">
+
+        <a href="#home"><img class ="max-w-7" src="img/list.svg" alt="logo"></a>
+
+        <a href=""><img src="img/list.svg" alt="menu" class ="sm:hidden"></a>
+        
+        <nav class ="w-70 max-sm:hidden">
+
+            <ul class ="flex justify-between">
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Iniciativa</a></li>
+                <li><a href="">Créditos</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
