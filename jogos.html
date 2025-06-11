@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <script src ="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +18,24 @@
     <title>Jogos</title>
 </head>
 <body id ="home" class ="bg-slate-800 font-[Cabin]">
-<header
+
+    <!-- mobile menu -->
+    <nav id ="menu" class="sm:hidden text-[#f0f0f2] fixed bg-stone-700 min-h-full flex items-center w-full text-center translate-x-full">
+        <ul class="flex gap-4 min-h-180 flex-col mx-auto justify-around">
+            <li class ="text-[#f0f0f2]"><a href="index.html">Início</a></li>
+            <li class ="text-[#f0f0f2]"><a href="#">Sobre (WIP)</a></li>
+            <li class ="text-[#f0f0f2]"><a href="jogos.html">Jogos</a></li>
+            <li class ="text-[#f0f0f2]"><a href="https://drive.google.com">Google Drive</a></li>
+            <li class ="text-[#f0f0f2]"><a href="#">Créditos (WIP)</a></li>
+        </ul>
+    </nav>
+
+    <header
         class="w-full min-h-20 flex p-4 px-40 max-md:px-15 max-sm:px-10 justify-between items-center border-b border-slate-500 fixed bg-slate-800/70">
 
         <a href="index.html" class=""><img src="img/logo.png" class="max-w-15" alt="logo"></a>
 
-
+        <!-- desktop menu -->
         <nav class="max-sm:hidden text-[#f0f0f2]">
             <ul class="flex gap-4">
                 <li class ="text-gray-500 hover:text-[#f0f0f2] transition"><a href="index.html">Início</a></li>
@@ -37,7 +50,7 @@
             <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 hover:bg-slate-900 rounded-2xl"></a>
         </div>
 
-        <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer">
+        <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer z-20" id ="list">
 
     </header>
 
