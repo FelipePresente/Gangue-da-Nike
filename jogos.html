@@ -20,7 +20,7 @@
 <body id ="home" class ="bg-slate-800 font-[Cabin]">
 
     <!-- mobile menu -->
-    <nav id ="menu" class="sm:hidden text-[#f0f0f2] fixed bg-stone-700 min-h-full flex items-center w-full text-center">
+    <nav id ="mobilemenu" class="sm:hidden text-[#f0f0f2] fixed bg-slate-800/99 flex w-full text-center translate-x-full transition-all delay-100 pt-20">
         <ul class="flex gap-4 min-h-180 flex-col mx-auto justify-around">
             <li class ="text-[#f0f0f2]"><a href="index.html">Início</a></li>
             <li class ="text-[#f0f0f2]"><a href="#">Sobre (WIP)</a></li>
@@ -31,7 +31,7 @@
     </nav>
 
     <header
-        class="w-full min-h-20 flex p-4 px-40 max-md:px-15 max-sm:px-10 justify-between items-center border-b border-slate-500 fixed bg-slate-800/70">
+        class="w-full min-h-20 flex p-4 px-40 max-md:px-15 max-sm:px-10 justify-between items-center border-b border-slate-500 fixed bg-slate-800/70" id ="header">
 
         <a href="index.html" class=""><img src="img/logo.png" class="max-w-15" alt="logo"></a>
 
@@ -50,14 +50,14 @@
             <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 hover:bg-slate-900 rounded-2xl"></a>
         </div>
 
-        <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer z-20" id ="list">
+        <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer" id ="list">
 
     </header>
 
     <main class="pt-20">
 
        <!-- arrow up -->
-        <a href="#home"><img src="img/arrow-up.svg" alt="Retornar ao topo" class ="fixed right-5 bottom-5 p-1 bg-slate-700 rounded-full"></a>
+        <a href="#home"><img src="img/arrow-up.svg" alt="Retornar ao topo" class ="fixed right-5 bottom-5 p-1 bg-slate-700 rounded-full transition delay-100" id ="topbutton"></a>
 
         <!-- banner -->
         <div
