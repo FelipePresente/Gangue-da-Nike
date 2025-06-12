@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileMenu = document.getElementById("mobilemenu");
 
     const topbotao = document.getElementById("topbutton");
+
+    const homerson = document.getElementById("home")
     
     // clica ai mano
     listImage.addEventListener("click", function() {
@@ -12,5 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
       mobileMenu.classList.toggle("translate-x-full");
 
       topbotao.classList.toggle("hidden");
+
+      homerson.classList.toggle("overflow-hidden");
     });
   });
