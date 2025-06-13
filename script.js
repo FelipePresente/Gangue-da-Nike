@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
     listImage.addEventListener("click", function() {
       // receba o gap
       mobileMenu.classList.toggle("translate-x-full");
-
-      topbotao.classList.toggle("hidden");
-
+      //deixa o botão com blur
+      topbotao.classList.toggle("blur");
+      //deixa o fundo sem scroll
       homerson.classList.toggle("overflow-hidden");
     });
   });
