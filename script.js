@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const topbotao = document.getElementById("topbutton");
 
-    const homerson = document.getElementById("home")
+    const homerson = document.getElementById("home");
+
+    const balatro = document.getElementById("itembalatro");
+
+    const pop = document.getElementById("pop1");
     
     // clica ai mano
     listImage.addEventListener("click", function() {
@@ -17,4 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
       //deixa o fundo sem scroll
       homerson.classList.toggle("overflow-hidden");
     });
+
+    balatro.addEventListener("click", function() {
+
+    pop.classList.toggle("hidden")
+
+    });
+
   });
