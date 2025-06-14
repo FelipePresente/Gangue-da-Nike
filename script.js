@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const balatro = document.getElementById("itembalatro");
 
     const pop = document.getElementById("pop1");
+
+    const exit = document.getElementById("x");
     
     // clica ai mano
     listImage.addEventListener("click", function() {
@@ -24,7 +26,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
     balatro.addEventListener("click", function() {
 
-    pop.classList.toggle("hidden")
+    pop.classList.toggle("translate-x-full");
+    homerson.classList.toggle("overflow-hidden");
+
+    });
+
+    exit.addEventListener("click", function() {
+
+      pop.classList.toggle("translate-x-full");
+      homerson.classList.toggle("overflow-hidden")
 
     });
 
