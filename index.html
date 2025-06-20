@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="script.js"></script>
+    <script src="theme.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
@@ -16,20 +17,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="dark.css">
     <title>GangueDaNike</title>
 </head>
 
     <!-- Test (to be removed) -->
-<body id="home" class="bg-slate-800 font-[Cabin]">
+<body id="home" class="bg-(--bg-themed) font-[Cabin]">
 
     <!-- mobile menu -->
-    <nav id ="mobilemenu" class="sm:hidden text-[#f0f0f2] fixed bg-slate-800/90 flex w-full h-screen text-center translate-x-full transition-all delay-100 pt-20">
+    <nav id ="mobilemenu" class="sm:hidden text-(--text-themed) fixed bg-slate-800/90 flex w-full h-screen text-center translate-x-full transition-all delay-100 pt-20">
         <ul class="flex gap-4 min-h-180 flex-col mx-auto justify-around">
-            <li class ="text-[#f0f0f2]"><a href="index.html">Início</a></li>
-            <li class ="text-[#f0f0f2]"><a href="#">Sobre (WIP)</a></li>
-            <li class ="text-[#f0f0f2]"><a href="jogos.html">Jogos</a></li>
-            <li class ="text-[#f0f0f2]"><a href="https://drive.google.com">Google Drive</a></li>
-            <li class ="text-[#f0f0f2]"><a href="#">Créditos (WIP)</a></li>
+            <li class ="text-(--text-themed)"><a href="index.html">Início</a></li>
+            <li class ="text-(--text-themed)"><a href="#">Sobre (WIP)</a></li>
+            <li class ="text-(--text-themed)"><a href="jogos.html">Jogos</a></li>
+            <li class ="text-(--text-themed)"><a href="https://drive.google.com">Google Drive</a></li>
+            <li class ="text-(--text-themed)"><a href="#">Créditos (WIP)</a></li>
         </ul>
     </nav>
     
@@ -39,19 +41,19 @@
         <a href="index.html" class=""><img src="img/logo.png" class="max-w-15" alt="logo"></a>
 
         <!-- desktop menu -->
-        <nav class="max-sm:hidden text-[#f0f0f2]">
+        <nav class="max-sm:hidden text-(--text-themed)">
             <ul class="flex gap-4 max-md:text-sm">
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Sobre (WIP)</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com" target ="_blank">Google Drive</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Créditos (WIP)</a></li>
+                <li class ="text-(--text-themed) hover:text-(--hover-text-themed) transition"><a href="index.html">Início</a></li>
+                <li class ="text-(--text-themed) hover:text-(--hover-text-themed) transition"><a href="#">Sobre (WIP)</a></li>
+                <li class ="text-(--text-themed) hover:text-(--hover-text-themed) transition"><a href="jogos.html">Jogos</a></li>
+                <li class ="text-(--text-themed) hover:text-(--hover-text-themed) transition"><a href="https://drive.google.com" target ="_blank">Google Drive</a></li>
+                <li class ="text-(--text-themed) hover:text-(--hover-text-themed) transition"><a href="#">Créditos (WIP)</a></li>
             </ul>
         </nav>
 
         <!-- moon -->
         <div class="max-sm:hidden">
-            <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full"></a>
+            <a href="#" id="themechanger"><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-(--bgzinc9) rounded-full"></a>
         </div>
 
         <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer" id ="list">
@@ -67,7 +69,7 @@
         <div
             class="bg-[url(img/banner.png)] w-full bg-cover max-md:bg-center max-sm:bg-center min-h-90 flex flex-col items-center justify-center">
 
-            <h1 class="text-9xl text-center text-[#f0f0f2] max-sm:text-5xl max-lg:text-8xl max-md:text-7xl font-[stix] text-shadow-lg/100">Gangue da <span
+            <h1 class="text-9xl text-center text-(--text-themed) max-sm:text-5xl max-lg:text-8xl max-md:text-7xl font-[stix] text-shadow-lg/100">Gangue da <span
                     class="text-blue-700">Nike</span></h1>
 
         </div>
@@ -79,13 +81,13 @@
         <!-- hero -->
         <div>
 
-            <h1 class="text-[#f0f0f2] text-center mt-10 text-4xl font-extrabold">Nossos Recursos</h1>
+            <h1 class="text-(--text-themed) text-center mt-10 text-4xl font-extrabold">Nossos Recursos</h1>
 
             <section
-                class="max-w-200 mx-auto mt-10 grid grid-cols-3 max-sm:grid-cols-1 justify-items-center text-[#f0f0f2] gap-8 mb-20">
+                class="max-w-200 mx-auto mt-10 grid grid-cols-3 max-sm:grid-cols-1 justify-items-center text-(--text-themed) gap-8 mb-20">
 
                 <!-- item 1 -->
-                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
+                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-(--bgzinc9) p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
                     <a href="#">
                     <img src="img/html.svg" alt="img1 - html" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Templates HTML (WIP)</h2>
@@ -96,7 +98,7 @@
                 </div>
 
                 <!-- item 2 -->
-                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
+                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-(--bgzinc9) p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
                     <a href="jogos.html">
                     <img src="img/controller.svg" alt="img2 - controle" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Jogos</h2>
@@ -107,7 +109,7 @@
                 </div>
 
                 <!-- item 3 -->
-                <div class="rounded-xl text-center min-w-50 max-md:min-w-30 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 duration-300">
+                <div class="rounded-xl text-center min-w-50 max-md:min-w-30 group shadow-2xl shadow-(--bgzinc9) p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 duration-300">
                     <a href="#">
                     <img src="img/drive.svg" alt="img3 - Google Drive" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Alocamento de Saves (WIP)</h2>
@@ -121,7 +123,7 @@
 
     </main>
 
-    <footer class ="bg-zinc-800">
+    <footer class ="bg-(--bgzinc8)">
 
         <div class ="min-h-20 flex items-center justify-center gap-3">
 
@@ -132,9 +134,9 @@
 
         </div>
 
-        <div class ="min-h-10 bg-zinc-900 flex items-center justify-center">
+        <div class ="min-h-10 bg-(--bgzinc9) flex items-center justify-center">
 
-            <p class ="text-[#f0f0f2]">&copy; 2025 Copyright: Gangue da Nike</p>
+            <p class ="text-(--text-themed)">&copy; 2025 Copyright: Gangue da Nike</p>
 
         </div>
 
