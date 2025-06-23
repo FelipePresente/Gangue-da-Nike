@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br" class ="scroll-smooth">
+<html lang="pt-br" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
-    <script src ="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
@@ -17,34 +18,38 @@
         rel="stylesheet">
     <title>Jogos</title>
 </head>
-<body id ="home" class ="bg-slate-800 font-[Cabin]">
+
+<body id="home" class="bg-slate-800 font-[Cabin]">
 
     <!-- mobile menu -->
-    <nav id ="mobilemenu" class="sm:hidden text-[#f0f0f2] fixed bg-slate-800/90 flex w-full h-screen text-center translate-x-full transition-all delay-100 pt-20">
+    <nav id="mobilemenu"
+        class="sm:hidden text-[#f0f0f2] fixed bg-slate-800/90 flex w-full h-screen text-center translate-x-full transition-all delay-100 pt-20">
         <ul class="flex gap-4 min-h-180 flex-col mx-auto justify-around">
-            <li class ="text-[#f0f0f2]"><a href="index.html">Início</a></li>
-            <li class ="text-[#f0f0f2]"><a href="#">Sobre (WIP)</a></li>
-            <li class ="text-[#f0f0f2]"><a href="jogos.html">Jogos</a></li>
-            <li class ="text-[#f0f0f2]"><a href="https://drive.google.com">Google Drive</a></li>
-            <li class ="text-[#f0f0f2]"><a href="#">Créditos (WIP)</a></li>
+            <li class="text-[#f0f0f2]"><a href="index.html">Início</a></li>
+            <li class="text-[#f0f0f2]"><a href="#">Sobre (WIP)</a></li>
+            <li class="text-[#f0f0f2]"><a href="jogos.html">Jogos</a></li>
+            <li class="text-[#f0f0f2]"><a href="https://drive.google.com">Google Drive</a></li>
+            <li class="text-[#f0f0f2]"><a href="#">Créditos (WIP)</a></li>
         </ul>
     </nav>
 
     </div>
 
     <header
-        class="w-full min-h-20 flex p-4 px-40 max-md:px-15 max-sm:px-10 justify-between items-center border-b border-slate-500 fixed bg-slate-800/70" id ="header">
+        class="w-full min-h-20 flex p-4 px-40 max-md:px-15 max-sm:px-10 justify-between items-center border-b border-slate-500 fixed bg-slate-800/70"
+        id="header">
 
         <a href="index.html" class=""><img src="img/logo.png" class="max-w-15" alt="logo"></a>
 
         <!-- desktop menu -->
         <nav class="max-sm:hidden text-[#f0f0f2]">
             <ul class="flex gap-4 max-md:text-sm">
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Sobre (WIP)</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com" target ="_blank">Google Drive</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Créditos (WIP)</a></li>
+                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
+                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Sobre (WIP)</a></li>
+                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
+                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com"
+                        target="_blank">Google Drive</a></li>
+                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Créditos (WIP)</a></li>
             </ul>
         </nav>
 
@@ -53,96 +58,92 @@
             <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full"></a>
         </div>
 
-        <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer" id ="list">
+        <img src="img/list.svg" alt="menu" class="sm:hidden cursor-pointer" id="list">
 
     </header>
 
     <main class="pt-20">
 
-       <!-- arrow up -->
-        <a href="#home"><img src="img/arrow-up.svg" alt="Retornar ao topo" class ="fixed right-5 bottom-5 p-1 bg-slate-700/90 rounded-full transition delay-100" id ="topbutton">
-        
+        <!-- arrow up -->
+        <a href="#home"><img src="img/arrow-up.svg" alt="Retornar ao topo"
+                class="fixed right-5 bottom-5 p-1 bg-slate-700/90 rounded-full transition delay-100" id="topbutton">
+
         </a>
 
         <!-- banner -->
         <div
             class="bg-[url(img/indie.webp)] w-full bg-cover max-md:bg-center max-sm:bg-center min-h-90 flex flex-col items-center justify-center">
 
-            <h1 class="text-9xl font-[stix] text-shadow-lg/100 text-center text-[#f0f0f2] max-sm:text-5xl max-md:text-7xl max-lg:text-8xl">Jogos da <span
-                    class="text-blue-700">Nike</span></h1>
+            <h1
+                class="text-9xl font-[stix] text-shadow-lg/100 text-center text-[#f0f0f2] max-sm:text-5xl max-md:text-7xl max-lg:text-8xl">
+                Jogos da <span class="text-blue-700">Nike</span></h1>
 
         </div>
 
         <div class="bg-gray-600 min-h-5">
-            
+
         </div>
 
         <!-- hero -->
-        <div class ="mb-20">
+        <div class="mb-20">
 
-            <a href="https://drive.google.com/drive/folders/1Lxach6xShMBZpp3u4QcYa3ZTWCMyo14-?usp=sharing" target="_top"><h1 class="text-[#f0f0f2] text-center mt-10 text-4xl font-extrabold">Biblioteca de Jogos</h1></a>
+            <a href="https://drive.google.com/drive/folders/1Lxach6xShMBZpp3u4QcYa3ZTWCMyo14-?usp=sharing"
+                target="_top">
+                <h1 class="text-[#f0f0f2] text-center mt-10 text-4xl font-extrabold">Biblioteca de Jogos</h1>
+            </a>
 
             <section
                 class="max-w-300 mx-auto mt-10 min-h-80 grid grid-cols-3 max-sm:grid-cols-1 max-lg:grid-cols-2 justify-items-center text-[#f0f0f2]">
 
-<<<<<<< HEAD
-                <!-- item 1 - balatro -->
-                <div class="rounded-xl text-center p-4 group" id ="itembalatro">
-                    <img src="img/balatro.png" alt="Balatro" class="mx-auto max-w-[92px]">
-                    <h2 class="text-xl my-3 font-extrabold">Balatro</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-=======
+
                 <!-- Item 1 - Hades -->
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/hades.png" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Hades</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
->>>>>>> jogos
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">10,36 GB</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">10,36 GB</div>
+
                     </div>
-<<<<<<< HEAD
-                    <a href="https://drive.google.com/file/d/1GAPnH6r6W5XI54N8tYLQm0_dpSB1wuJ0/view?usp=sharing" target="_blank">
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                </a>
-=======
-                    
-                    <a href="https://drive.google.com/file/d/1ct9Y238Z9KZb9qVjnyzx0pRnZy_WD_6w/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1ct9Y238Z9KZb9qVjnyzx0pRnZy_WD_6w/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
->>>>>>> jogos
+
                 </div>
 
                 <!-- item 2 - skul -->
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/skul.png" alt="Skul: The Hero Slayer" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Skul: The Hero Slayer</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
-                        
-                        <div class ="p-1 bg-purple-500 rounded-3xl">GOTY</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">1,65 GB</div>
-                        
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
+
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+
+                        <div class="p-1 bg-purple-500 rounded-3xl">GOTY</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">1,65 GB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1urHHGjUkA4nIt4EX-Wef4OXpuH8RtgrP/view?usp=sharing" target ="_blank">
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                </a>
+
+                    <a href="https://drive.google.com/file/d/1urHHGjUkA4nIt4EX-Wef4OXpuH8RtgrP/view?usp=sharing"
+                        target="_blank">
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+                    </a>
 
                 </div>
 
@@ -150,24 +151,27 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/deadcells.png" alt="Dead Cells" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Dead Cells</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
-                        
-                        <div class ="p-1 bg-red-500 rounded-3xl">Metroidvania</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">1,9 GB</div>
-                        
-                        
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
+
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+
+                        <div class="p-1 bg-red-500 rounded-3xl">Metroidvania</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">1,9 GB</div>
+
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1CbhtuY--E9hpg4CGEjZix16O8y_gwPpL/view?usp=sharing" target="_blank">
-                    
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1CbhtuY--E9hpg4CGEjZix16O8y_gwPpL/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -175,21 +179,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/cuphead.png" alt="Cuphead" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Cuphead</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
-                        
-                        <div class ="p-1 bg-slate-700 rounded-3xl">4,88 GB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1x-hT770ZtxAj27bPlKtMkZqfixQuyYMb/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
+
+                        <div class="p-1 bg-slate-700 rounded-3xl">4,88 GB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1x-hT770ZtxAj27bPlKtMkZqfixQuyYMb/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -197,21 +204,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/hollow.png" alt="Hollow Knight" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Hollow Knight</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-500 rounded-3xl">Metroidvania</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">1,33 GB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1Gqg9KKev8OHkWS_-lRAulj_qb-28GFgl/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-500 rounded-3xl">Metroidvania</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">1,33 GB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1Gqg9KKev8OHkWS_-lRAulj_qb-28GFgl/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -219,21 +229,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/katanazero.png" alt="Katana Zero" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Katana Zero</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">203,9 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1MUY5kTj7StSiYD0iQnsPcXI31KO5o-sT/view?usp=sharing" target ="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">203,9 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1MUY5kTj7StSiYD0iQnsPcXI31KO5o-sT/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -241,23 +254,26 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/celeste.png" alt="Celeste" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Celeste</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
-                        
-                        <div class ="p-1 bg-teal-500 rounded-3xl">Aventura</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">2,1 GB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1r1tE0EBrLgfQMkt4LEHekgfETQQvZujm/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-orange-500 rounded-3xl">Plataforma</div>
+
+                        <div class="p-1 bg-teal-500 rounded-3xl">Aventura</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">2,1 GB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1r1tE0EBrLgfQMkt4LEHekgfETQQvZujm/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -265,23 +281,26 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/Undertale.png" alt="Undertale" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Undertale</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-indigo-500 rounded-3xl">RPG</div>
-                        
-                        <div class ="p-1 bg-teal-500 rounded-3xl">Aventura</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">423,9 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1ugxQnwuRpnwI8y7SBqvp6uvNWGs2qZ2X/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-indigo-500 rounded-3xl">RPG</div>
+
+                        <div class="p-1 bg-teal-500 rounded-3xl">Aventura</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">423,9 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1ugxQnwuRpnwI8y7SBqvp6uvNWGs2qZ2X/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -289,22 +308,25 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/oneshot.png" alt="OneShot" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">OneShot</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        
-                        <div class ="p-1 bg-teal-500 rounded-3xl">Aventura</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">402,6 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1CMrWstZ6HpFyCfE0v4t-MlCRK9AAdtzV/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+
+                        <div class="p-1 bg-teal-500 rounded-3xl">Aventura</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">402,6 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1CMrWstZ6HpFyCfE0v4t-MlCRK9AAdtzV/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -312,21 +334,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/Ultrakill.png" alt="ULTRAKILL" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Ultrakill</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-fuchsia-700 rounded-3xl">First Person Shooter</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">2,33 GB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1ArxzTqUy28RKtKMj-E1LUoZMD8XNq0a6/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-fuchsia-700 rounded-3xl">First Person Shooter</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">2,33 GB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1ArxzTqUy28RKtKMj-E1LUoZMD8XNq0a6/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -334,23 +359,26 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/Dragon_Snow.png" alt="Changed" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Changed</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-indigo-500 rounded-3xl">RPG</div>
-                        
-                        <div class ="p-1 bg-orange-700 rounded-3xl">Díficil</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">146,2 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1kD04TPW80-tECoNzEUELDwsd2-msLs0B/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-indigo-500 rounded-3xl">RPG</div>
+
+                        <div class="p-1 bg-orange-700 rounded-3xl">Díficil</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">146,2 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1kD04TPW80-tECoNzEUELDwsd2-msLs0B/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -358,21 +386,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/artzoka.png" alt="Papers, Please" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Papers, Please</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-indigo-500 rounded-3xl">RPG</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">93,3 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1ix2bP8hIO0PMuDduAFi0hvhQg5-KVwkc/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-indigo-500 rounded-3xl">RPG</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">93,3 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1ix2bP8hIO0PMuDduAFi0hvhQg5-KVwkc/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -380,23 +411,26 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/Issac.png" alt="Issac" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">The Binding Of Issac</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
-                        
-                        <div class ="p-1 bg-orange-700 rounded-3xl">Díficil</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">1,79 GB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1v2SOq-61Iog5h_MtsZJd0aKoQ6LcoP1T/view?usp=drive_link" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+
+                        <div class="p-1 bg-orange-700 rounded-3xl">Díficil</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">1,79 GB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1v2SOq-61Iog5h_MtsZJd0aKoQ6LcoP1T/view?usp=drive_link"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -404,21 +438,24 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/rimworld.png" alt="Rimworld" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Rimworld</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-green-700 rounded-3xl">Simulação</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">447,8 MB</div>
-                        
-                    </div>
-                    
-                    <a href="https://drive.google.com/file/d/1FwWcdb23QuvmYNFtJF4OpG21rXa6x0GY/view?usp=sharing" target="_blank">
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
 
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-green-700 rounded-3xl">Simulação</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">447,8 MB</div>
+
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1FwWcdb23QuvmYNFtJF4OpG21rXa6x0GY/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -426,64 +463,75 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/th6en.ico" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Touhou 6</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
-                    
-                    <div class ="grid grid-cols-3 gap-3">
-                        <div class ="p-1 bg-purple-800 rounded-3xl">Shoot 'em Up</div>
-                        
-                        <div class ="p-1 bg-orange-700 rounded-3xl">Díficil</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">306,1 MB</div>
-                        
+                    <hr
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
+
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="p-1 bg-purple-800 rounded-3xl">Shoot 'em Up</div>
+
+                        <div class="p-1 bg-orange-700 rounded-3xl">Díficil</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">306,1 MB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1Gyg417JIQyYLTaDBZNmiyu7ZQkptB5ja/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1Gyg417JIQyYLTaDBZNmiyu7ZQkptB5ja/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
                 <!-- item 16 - balatro -->
-                <div class="rounded-xl text-center p-4 group" id ="itembalatro">
+                <div class="rounded-xl text-center p-4 group" id="itembalatro">
                     <img src="img/balatro.png" alt="Balatro" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Balatro</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">103,1 MB</div>
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">103,1 MB</div>
 
                     </div>
 
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                    <a href="https://drive.google.com/file/d/1GAPnH6r6W5XI54N8tYLQm0_dpSB1wuJ0/view?usp=sharing"
+                        target="_blank">
+
+                    <button
+                        class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
                         Download
                     </button>
-                    
+
+                    </a>
+
                 </div>
 
                 <!-- Item 17 - FNAF1  -->
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/fnaf1.png" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 1</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-950 rounded-3xl">Terror</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">267,8 MB</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-950 rounded-3xl">Terror</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">267,8 MB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1JTrxCEY3HEcZLaJSdOyE8tSqcq0cS5GM/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1JTrxCEY3HEcZLaJSdOyE8tSqcq0cS5GM/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -491,21 +539,23 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/fnaf2.png" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 2</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-950 rounded-3xl">Terror</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">255,8 MG</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-950 rounded-3xl">Terror</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">255,8 MG</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1o_GJEpD98uhIxupDoNnUvltamknQDrjp/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1o_GJEpD98uhIxupDoNnUvltamknQDrjp/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -513,21 +563,23 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/fnaf3.png" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 3</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-950 rounded-3xl">Terror</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">156,9 MB</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-950 rounded-3xl">Terror</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">156,9 MB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1wVUHIeF56XtioXPC8XDH9nnsT6POVA_T/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1wVUHIeF56XtioXPC8XDH9nnsT6POVA_T/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -535,21 +587,23 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/fnaf4.png" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 4</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-950 rounded-3xl">Terror</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">1,04 GB</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-950 rounded-3xl">Terror</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">1,04 GB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/17tCHKAuRMq84uQWC2H3mBLApafwlCTJ1/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/17tCHKAuRMq84uQWC2H3mBLApafwlCTJ1/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
@@ -557,49 +611,56 @@
                 <div class="rounded-xl text-center p-4 group">
                     <img src="img/fnaf5.jpg" alt="Touhou 6" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF SL</h2>
-                    <hr class ="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
-                    
-                    <div class ="grid grid-cols-2 gap-3">
-                        <div class ="p-1 bg-red-950 rounded-3xl">Terror</div>
-                        
-                        <div class ="p-1 bg-slate-500 rounded-3xl">946,1 MB</div>
-                        
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500">
+
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="p-1 bg-red-950 rounded-3xl">Terror</div>
+
+                        <div class="p-1 bg-slate-500 rounded-3xl">946,1 MB</div>
+
                     </div>
-                    
-                    <a href="https://drive.google.com/file/d/1yzzOZ4EfOWXpz3ZMI5l0wtvNcnZPl6aC/view?usp=sharing" target="_blank">
-                        
-                    <button class ="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
-                        Download
-                    </button>
-                    
+
+                    <a href="https://drive.google.com/file/d/1yzzOZ4EfOWXpz3ZMI5l0wtvNcnZPl6aC/view?usp=sharing"
+                        target="_blank">
+
+                        <button
+                            class="bg-stone-500/50 text-[#f0f0f2] border border-[#f0f0f2] hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-al cursor-pointer">
+                            Download
+                        </button>
+
                     </a>
                 </div>
 
             </section>
         </div>
 
-        
+
 
     </main>
 
-    <footer class ="bg-zinc-800">
+    <footer class="bg-zinc-800">
 
-        <div class ="min-h-20 flex items-center justify-center gap-3">
+        <div class="min-h-20 flex items-center justify-center gap-3">
 
-            <a href="https://github.com/FelipePresente/Gangue-da-Nike" target ="_blank"><img src="img/github.png" alt="GitHub" class ="max-h-10"></a>
-            <a href="https://github.com/FelipePresente" target ="_blank"><img src="img/felipepresente.png" alt="Felipe Presente" class ="max-h-10 rounded-full"></a>
-            <a href="https://github.com/Blueperry646" target ="_blank"><img src="img/Yan.jpeg" alt="Yan da Mata" class ="max-h-10 rounded-full"></a>
-            <a href="https://www.ifspcaraguatatuba.edu.br/" target ="_blank"><img src="img/ifsp.png" alt="IFSP" class ="max-h-10 rounded-full"></a>
+            <a href="https://github.com/FelipePresente/Gangue-da-Nike" target="_blank"><img src="img/github.png"
+                    alt="GitHub" class="max-h-10"></a>
+            <a href="https://github.com/FelipePresente" target="_blank"><img src="img/felipepresente.png"
+                    alt="Felipe Presente" class="max-h-10 rounded-full"></a>
+            <a href="https://github.com/Blueperry646" target="_blank"><img src="img/Yan.jpeg" alt="Yan da Mata"
+                    class="max-h-10 rounded-full"></a>
+            <a href="https://www.ifspcaraguatatuba.edu.br/" target="_blank"><img src="img/ifsp.png" alt="IFSP"
+                    class="max-h-10 rounded-full"></a>
 
         </div>
 
-        <div class ="min-h-10 bg-zinc-900 flex items-center justify-center">
+        <div class="min-h-10 bg-zinc-900 flex items-center justify-center">
 
-            <p class ="text-[#f0f0f2]">&copy; 2025 Copyright: Gangue da Nike</p>
+            <p class="text-[#f0f0f2]">&copy; 2025 Copyright: Gangue da Nike</p>
 
         </div>
 
     </footer>
 
 </body>
+
 </html>
