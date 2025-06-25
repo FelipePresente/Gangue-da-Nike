@@ -123,25 +123,36 @@
                 </div>
 
                 <!-- item 2 - skul -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/skul.png" alt="Skul: The Hero Slayer" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Skul: The Hero Slayer</h2>
                     <hr
-                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
+                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300" id ="hrskul">
 
-                    <div class="grid grid-cols-3 gap-3">
+                    <div class="grid grid-cols-3 gap-3" id ="skulgen">
                         <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
 
-                        <div class="p-1 bg-purple-500 rounded-3xl">GOTY</div>
+                            <div class="p-1 bg-purple-500 rounded-3xl cursor-pointer" id ="goty">GOTY</div>
 
                         <div class="p-1 bg-slate-500 rounded-3xl">1,65 GB</div>
 
                     </div>
 
+                    <div class ="p-1 bg-slate-700/90 rounded-3xl hidden mr-4" id ="gotysum">
+                        
+                        <div class ="w-full flex justify-end items-center p-2">
+
+                            <img src="img/x.svg" alt="fechar" class ="max-w-5 cursor-pointer" id ="closegoty">
+
+                        </div>
+                        
+                        <p class ="p-2 text-center mb-3">Este é considereado pela academia Felipe Presente como sendo o melhor jogo indie de todos os tempos.</p>
+                    </div>
+
                     <a href="https://drive.google.com/file/d/1urHHGjUkA4nIt4EX-Wef4OXpuH8RtgrP/view?usp=sharing"
                         target="_blank">
                         <button
-                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer" id ="downloadskul">
                             Download
                         </button>
                     </a>
@@ -505,9 +516,9 @@
                         target="_blank">
 
                         <button
-                        class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
-                        Download
-                    </button>
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            Download
+                        </button>
 
                     </a>
 
