@@ -19,6 +19,24 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadskul = document.getElementById("downloadskul");
     //pega a hr do skul
     const hrskul = document.getElementById("hrskul");
+    //pega o rogueskul
+    const rogueskul = document.getElementById("rogueskul")
+    //pega o gênero roguelike do skul
+    const rogueskulsum = document.getElementById("rogueskulsum");
+    //pega o x do roguelike do skul
+    const closerogueskul = document.getElementById("closerogueskul");
+
+    const hadesgen = document.getElementById("hadesgen");
+
+    const hrhades = document.getElementById("hrhades");
+
+    const roguehades = document.getElementById("roguehades");
+
+    const roguehadessum = document.getElementById("roguehadessum");
+
+    const downloadhades = document.getElementById("downloadhades")
+
+    const closeroguehades = document.getElementById("closeroguehades");
 
     // clica ai mano
     listImage.addEventListener("click", function() {
@@ -50,6 +68,50 @@ document.addEventListener("DOMContentLoaded", function() {
       gotysum.classList.toggle("z-50");
       gotysum.classList.toggle("absolute");
       hrskul.classList.toggle("hidden");
+
+    });
+
+    rogueskul.addEventListener("click", function() {
+
+      skulgen.classList.toggle("hidden");
+      rogueskulsum.classList.toggle("hidden");
+      downloadskul.classList.toggle("hidden");
+      rogueskulsum.classList.toggle("z-50");
+      rogueskulsum.classList.toggle("absolute");
+      hrskul.classList.toggle("hidden");
+
+    });
+
+    closerogueskul.addEventListener("click", function() {
+
+      skulgen.classList.toggle("hidden");
+      rogueskulsum.classList.toggle("hidden");
+      downloadskul.classList.toggle("hidden");
+      rogueskulsum.classList.toggle("z-50");
+      rogueskulsum.classList.toggle("absolute");
+      hrskul.classList.toggle("hidden");
+
+    });
+
+    roguehades.addEventListener("click", function() {
+
+      hadesgen.classList.toggle("hidden");
+      roguehadessum.classList.toggle("hidden");
+      downloadhades.classList.toggle("hidden");
+      roguehadessum.classList.toggle("z-50");
+      roguehadessum.classList.toggle("absolute");
+      hrhades.classList.toggle("hidden");
+
+    });
+
+    closeroguehades.addEventListener("click", function() {
+
+      hadesgen.classList.toggle("hidden");
+      roguehadessum.classList.toggle("hidden");
+      downloadhades.classList.toggle("hidden");
+      roguehadessum.classList.toggle("z-50");
+      roguehadessum.classList.toggle("absolute");
+      hrhades.classList.toggle("hidden");
 
     });
 });

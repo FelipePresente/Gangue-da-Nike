@@ -97,24 +97,37 @@
 
 
                 <!-- Item 1 - Hades -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/hades.png" alt="HADES" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Hades</h2>
-                    <hr
-                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300">
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300"
+                        id="hrhades">
 
-                    <div class="grid grid-cols-2 gap-3">
-                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+                    <div class="grid grid-cols-2 gap-3" id="hadesgen">
+                        <div class="p-1 bg-blue-500 rounded-3xl" id="roguehades">RogueLike</div>
 
                         <div class="p-1 bg-slate-500 rounded-3xl">10,36 GB</div>
 
+                    </div>
+
+                    <div class="p-1 bg-purple-500/90 rounded-3xl hidden mr-4" id="roguehadessum">
+
+                        <div class="w-full flex justify-end items-center p-2">
+
+                            <img src="img/x.svg" alt="fechar" class="max-w-5 cursor-pointer" id="closeroguehades">
+
+                        </div>
+
+                        <p class="p-2 text-center mb-3">Este é considerado pela academia Felipe Presente como sendo o
+                            melhor jogo indie de todos os tempos</p>
                     </div>
 
                     <a href="https://drive.google.com/file/d/1ct9Y238Z9KZb9qVjnyzx0pRnZy_WD_6w/view?usp=sharing"
                         target="_blank">
 
                         <button
-                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer">
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer"
+                            id="downloadhades">
                             Download
                         </button>
 
@@ -126,33 +139,49 @@
                 <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/skul.png" alt="Skul: The Hero Slayer" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Skul: The Hero Slayer</h2>
-                    <hr
-                        class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300" id ="hrskul">
+                    <hr class="my-4 max-w-15 mx-auto group-hover:max-w-full transition-all border-blue-500 duration-300"
+                        id="hrskul">
 
-                    <div class="grid grid-cols-3 gap-3" id ="skulgen">
-                        <div class="p-1 bg-blue-500 rounded-3xl">RogueLike</div>
+                    <div class="grid grid-cols-3 gap-3" id="skulgen">
+                        <div class="p-1 bg-blue-500 rounded-3xl cursor-pointer" id="rogueskul">RogueLike</div>
 
-                            <div class="p-1 bg-purple-500 rounded-3xl cursor-pointer" id ="goty">GOTY</div>
+                        <div class="p-1 bg-purple-500 rounded-3xl cursor-pointer" id="goty">GOTY</div>
 
                         <div class="p-1 bg-slate-500 rounded-3xl">1,65 GB</div>
 
                     </div>
 
-                    <div class ="p-1 bg-purple-500/90 rounded-3xl hidden mr-4" id ="gotysum">
-                        
-                        <div class ="w-full flex justify-end items-center p-2">
+                    <!-- gotysum -->
+                    <div class="p-1 bg-purple-500/90 rounded-3xl hidden mr-4" id="gotysum">
 
-                            <img src="img/x.svg" alt="fechar" class ="max-w-5 cursor-pointer" id ="closegoty">
+                        <div class="w-full flex justify-end items-center p-2">
+
+                            <img src="img/x.svg" alt="fechar" class="max-w-5 cursor-pointer" id="closegoty">
 
                         </div>
-                        
-                        <p class ="p-2 text-center mb-3">Este é considerado pela academia Felipe Presente como sendo o melhor jogo indie de todos os tempos</p>
+
+                        <p class="p-2 text-center mb-3">Este é considerado pela academia Felipe Presente como sendo o
+                            melhor jogo indie de todos os tempos</p>
+                    </div>
+
+                    <!-- roguesum -->
+                    <div class="p-1 bg-blue-500/90 rounded-3xl hidden mr-4" id="rogueskulsum">
+
+                        <div class="w-full flex justify-end items-center p-2">
+
+                            <img src="img/x.svg" alt="fechar" class="max-w-5 cursor-pointer" id="closerogueskul">
+
+                        </div>
+
+                        <p class="p-2 text-center mb-3">RogueLike é um gênero de jogo com cenário aleatório, morte
+                            permanente e temática de fantasia</p>
                     </div>
 
                     <a href="https://drive.google.com/file/d/1urHHGjUkA4nIt4EX-Wef4OXpuH8RtgrP/view?usp=sharing"
                         target="_blank">
                         <button
-                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer" id ="downloadskul">
+                            class="bg-transparent text-[#f0f0f2] border border-stone-600 hover:bg-[#f0f0f2] hover:text-black rounded-3xl p-1 min-w-50 mt-4 transition-all duration-300 cursor-pointer"
+                            id="downloadskul">
                             Download
                         </button>
                     </a>
@@ -160,7 +189,7 @@
                 </div>
 
                 <!-- item 3 - dead cells -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/deadcells.png" alt="Dead Cells" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Dead Cells</h2>
                     <hr
@@ -188,7 +217,7 @@
                 </div>
 
                 <!-- item 4 - cuphead -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/cuphead.png" alt="Cuphead" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Cuphead</h2>
                     <hr
@@ -213,7 +242,7 @@
                 </div>
 
                 <!-- item 5 - hollow knight -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/hollow.png" alt="Hollow Knight" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Hollow Knight</h2>
                     <hr
@@ -238,7 +267,7 @@
                 </div>
 
                 <!-- item 6 - katana zero -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/katanazero.png" alt="Katana Zero" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Katana Zero</h2>
                     <hr
@@ -263,7 +292,7 @@
                 </div>
 
                 <!-- item 7 - celeste -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/celeste.png" alt="Celeste" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Celeste</h2>
                     <hr
@@ -290,7 +319,7 @@
                 </div>
 
                 <!-- item 8 - undertale -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/Undertale.png" alt="Undertale" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Undertale</h2>
                     <hr
@@ -317,7 +346,7 @@
                 </div>
 
                 <!-- item 9 - oneshot -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/oneshot.png" alt="OneShot" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">OneShot</h2>
                     <hr
@@ -343,7 +372,7 @@
                 </div>
 
                 <!-- Item 10 - Ultrakill -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/Ultrakill.png" alt="ULTRAKILL" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Ultrakill</h2>
                     <hr
@@ -368,7 +397,7 @@
                 </div>
 
                 <!-- Item 11 - Changed -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/Dragon_Snow.png" alt="Changed" class="rounded-full mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Changed</h2>
                     <hr
@@ -395,7 +424,7 @@
                 </div>
 
                 <!-- Item 12 - Papers, Please -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/artzoka.png" alt="Papers, Please" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Papers, Please</h2>
                     <hr
@@ -420,7 +449,7 @@
                 </div>
 
                 <!-- Item 13 - The Binding of Issac -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/Issac.png" alt="Issac" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">The Binding Of Issac</h2>
                     <hr
@@ -447,7 +476,7 @@
                 </div>
 
                 <!-- Item 14 - Rimworld -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/rimworld.png" alt="Rimworld" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Rimworld</h2>
                     <hr
@@ -472,7 +501,7 @@
                 </div>
 
                 <!-- Item 15 - Touhou 6 -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/th6en.ico" alt="Touhou 6" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">Touhou 6</h2>
                     <hr
@@ -525,7 +554,7 @@
                 </div>
 
                 <!-- Item 17 - FNAF1  -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/fnaf1.png" alt="FNAF 1" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 1</h2>
                     <hr
@@ -550,7 +579,7 @@
                 </div>
 
                 <!-- Item 18 - FNAF2  -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/fnaf2.png" alt="FNAF 2" class="mx-auto max-w-[95px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 2</h2>
                     <hr
@@ -575,7 +604,7 @@
                 </div>
 
                 <!-- Item 19 - FNAF3  -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/fnaf3.png" alt="FNAF 3" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 3</h2>
                     <hr
@@ -600,7 +629,7 @@
                 </div>
 
                 <!-- Item 20 - FNAF4  -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/fnaf4.png" alt="FNAF 4" class="mx-auto max-w-[92px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF 4</h2>
                     <hr
@@ -625,7 +654,7 @@
                 </div>
 
                 <!-- Item 21 - FNAFSL  -->
-                <div class="rounded-xl text-center p-4 group">
+                <div class="rounded-xl text-center p-4 group relative">
                     <img src="img/fnaf5.png" alt="FNAF SL" class="mx-auto max-w-[100px]">
                     <h2 class="text-xl my-3 font-extrabold">FNAF SL</h2>
                     <hr
