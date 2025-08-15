@@ -47,18 +47,34 @@
         <!-- desktop menu -->
         <nav class="max-sm:hidden text-[#f0f0f2]">
             <ul class="flex gap-4 max-md:text-sm">
-                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
-                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Sobre (WIP)</a></li>
-                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
-                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com"
-                        target="_blank">Google Drive</a></li>
-                <li class="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Créditos (WIP)</a></li>
+                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
+                <li class ="text-[#f0f0f2] flex justify-center"><a href="#" class =" hover:text-gray-500 transition" id ="sobre">Sobre (WIP)</a>
+                
+                    <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 hidden flex justify-center items-center p-3" id ="sobredropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+                
+                </li>
+                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
+                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com" target ="_blank">Google Drive</a></li>
+                <li class ="text-[#f0f0f2] flex justify-center"><a href="#" class =" hover:text-gray-500 transition" id ="creditos">Créditos (WIP)</a>
+                
+                    <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 hidden flex justify-center items-center p-3" id ="creditosdropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+                </li>
             </ul>
         </nav>
 
         <!-- moon -->
-        <div class="max-sm:hidden">
-            <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full"></a>
+        <div class="max-sm:hidden text-[#f0f0f2] flex justify-center" id ="moon">
+            <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full">
+            </a>
+
+            <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 flex justify-center items-center p-3 hidden" id ="moondropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+            
         </div>
 
         <img src="img/list.svg" alt="menu" class="sm:hidden cursor-pointer" id="list">

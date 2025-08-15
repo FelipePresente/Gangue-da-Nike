@@ -45,16 +45,33 @@
         <nav class="max-sm:hidden text-[#f0f0f2]">
             <ul class="flex gap-4 max-md:text-sm">
                 <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="index.html">Início</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Sobre (WIP)</a></li>
+                <li class ="text-[#f0f0f2] flex justify-center"><a href="#" class =" hover:text-gray-500 transition" id ="sobre">Sobre (WIP)</a>
+                
+                    <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 hidden flex justify-center items-center p-3" id ="sobredropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+                
+                </li>
                 <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="jogos.html">Jogos</a></li>
                 <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="https://drive.google.com" target ="_blank">Google Drive</a></li>
-                <li class ="text-[#f0f0f2] hover:text-gray-500 transition"><a href="#">Créditos (WIP)</a></li>
+                <li class ="text-[#f0f0f2] flex justify-center"><a href="#" class =" hover:text-gray-500 transition" id ="creditos">Créditos (WIP)</a>
+                
+                    <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 hidden flex justify-center items-center p-3" id ="creditosdropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+                </li>
             </ul>
         </nav>
 
         <!-- moon -->
-        <div class="max-sm:hidden">
-            <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full"></a>
+        <div class="max-sm:hidden text-[#f0f0f2] flex justify-center" id ="moon">
+            <a href=""><img src="img/moon.svg" alt="noite" class="max-w-9 p-1 bg-slate-900 rounded-full">
+            </a>
+
+            <div class ="top-20 absolute border border-slate-500 bg-slate-800/95 min-h-20 max-w-30 flex justify-center items-center p-3 hidden" id ="moondropdown">
+                        Este recurso ainda não está disponível :(
+                    </div>
+            
         </div>
 
         <img src="img/list.svg" alt="menu" class ="sm:hidden cursor-pointer" id ="list">
@@ -88,7 +105,7 @@
                 class="max-w-200 mx-auto mt-10 grid grid-cols-3 max-sm:grid-cols-1 justify-items-center text-[#f0f0f2] gap-8 mb-20">
 
                 <!-- item 1 -->
-                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
+                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border max-sm:max-w-70 max-md:min-w-40 duration-300 border border-slate-600">
                     <a href="#">
                     <img src="img/html.svg" alt="img1 - html" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Templates HTML (WIP)</h2>
@@ -99,7 +116,7 @@
                 </div>
 
                 <!-- item 2 -->
-                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 max-md:min-w-40 duration-300">
+                <div class="rounded-xl text-center min-w-50 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:bord max-sm:max-w-70 max-md:min-w-40 duration-300 border border-slate-600">
                     <a href="jogos.html">
                     <img src="img/controller.svg" alt="img2 - controle" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Jogos</h2>
@@ -110,7 +127,7 @@
                 </div>
 
                 <!-- item 3 -->
-                <div class="rounded-xl text-center min-w-50 max-md:min-w-30 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:border border-slate-700 max-sm:max-w-70 duration-300">
+                <div class="rounded-xl text-center min-w-50 max-md:min-w-30 group shadow-2xl shadow-slate-900 p-4 hover:-translate-y-5 transition-all max-sm:shadow-md max-sm:bord max-sm:max-w-70 duration-300 border border-slate-600">
                     <a href="#">
                     <img src="img/drive.svg" alt="img3 - Google Drive" class="mx-auto">
                     <h2 class="text-xl my-3 font-extrabold">Alocamento de Saves (WIP)</h2>
