@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
     //pega o body
     const homerson = document.getElementById("home");
 
-    const moon = document.getElementById("moon");
-
-    const moondropdown = document.getElementById("moondropdown");
-
     const sobre = document.getElementById("sobre");
 
     const sobredropdown = document.getElementById("sobredropdown");
@@ -29,21 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
       //deixa o fundo sem scroll
       homerson.classList.toggle("overflow-hidden");
     })
-
-    moon.addEventListener("mouseenter", function() {
-
-      moondropdown.classList.toggle("hidden");
-      creditosdropdown.classList.add("hidden");
-      sobredropdown.classList.add("hidden");
-
-    })
-
-    moon.addEventListener("mouseleave", function() {
-
-      moondropdown.classList.toggle("hidden");
-
-    })
-
+    
     creditos.addEventListener("mouseenter", function() {
 
       creditosdropdown.classList.toggle("hidden");
