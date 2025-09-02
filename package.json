@@ -1,0 +1,26 @@
+{
+  "name": "gangue-da-nike-nocdn",
+  "version": "1.0.0",
+  "description": "fodase",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blueperry646/Gangue-da-Nike-nocdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blueperry646/Gangue-da-Nike-nocdn/issues"
+  },
+  "homepage": "https://github.com/Blueperry646/Gangue-da-Nike-nocdn#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.12"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12"
+  }
+}
